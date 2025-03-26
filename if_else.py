@@ -16,7 +16,7 @@ else:
 
 edad = int(input("Ingrese su edad"))
 documento = input ("Tiene documento si/no")
-if edad >= 18 and documento== si:
+if edad >= 18 and documento== "si":
     print("Usted es mayor de edad")
     print("Puede votar")
 else:
